@@ -1,0 +1,46 @@
+.services {
+  display: grid;
+  grid-template-columns: repeat(2, 30%);
+  place-content: center;
+  margin-top: 5%;
+}
+
+.cardService {
+  border: 1px solid var(--color-lightViolet);
+  padding: 1.2rem;
+  text-align: start;
+  border-radius: 0.4rem;
+  margin: .5rem 1rem;
+  cursor: pointer;
+  background-color: var(--color-lightGray);
+}
+
+.cardService:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.titleService {
+  margin: 3rem;
+  font-size: 1.5rem;
+}
+
+.titleCard {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+.descriptionService{
+    color:var(--color-gray);
+    font-size: .9rem;
+}
+
+@media(max-width:768px){
+  .services{
+    grid-template-columns: repeat(2, 50%);
+  }
+}
+@media(max-width:480px){
+  .services{
+    grid-template-columns: 100%;
+  }
+}

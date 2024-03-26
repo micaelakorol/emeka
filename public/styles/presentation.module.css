@@ -1,0 +1,67 @@
+.containerPresentation {
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+  place-content: space-evenly;
+  margin: 3.5rem 1rem;
+  align-items:center ;
+}
+
+.title{
+  font-weight: 500;
+  font-size: 2.3rem;
+}
+
+.btnTalk {
+  background-color: var(--color-violet);
+  display: inline-block;
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-family: inherit;
+  text-align: center;
+  color: var(--color-white);
+  border-radius: 0.2rem;
+  border: none;
+  padding: 0.6rem 0.8rem;
+  margin: 0.8rem 0;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.titleFrontend{
+    compose: title;
+     font-size: 1.8rem;
+     font-weight: 400;
+     margin: .7rem 0;
+}
+
+.btnTalk:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.btnSeeProject {
+  composes: btnTalk;
+  color: #0e0e0e;
+  background-color: var(--lightBg-btn);
+  border: 1px solid #ADADAF;
+}
+
+.description {
+  margin: 0.5rem 0;
+  color: var(--color-gray);
+}
+
+@media(max-width:768px){
+  .containerPresentation{
+    grid-template-columns: 1fr;
+    margin: 1rem 0 1rem 2rem;
+    text-align: left;
+  }
+}
+@media(max-width:480px){
+.titleFrontend{
+ font-size: 1.6rem;
+}
+.title{
+  font-size: 2rem;
+}
+}

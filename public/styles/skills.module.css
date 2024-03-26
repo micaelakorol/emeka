@@ -1,0 +1,57 @@
+.containerSkill{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: center;
+    margin-top: 12%;
+    background-color: var(--bg-containerSkill);
+    padding: 1rem;
+}
+
+.containerIcons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.skillIcon{
+    margin: .7rem 1.5rem;
+    cursor: pointer;
+    border-top: .5px solid var(--border-skill);
+    border-right: .5px solid var(--border-skill);
+    padding: .7rem;
+}
+
+.skillTitle{
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: end;
+}
+
+.description{
+    color: var(--color-description);
+    margin-top: .7rem;
+    font-size: .98rem;
+    text-align: end;
+}
+
+@media(max-width:768px){
+    .containerSkill{
+        grid-template-columns: 1fr;
+    }
+    .skillTitle{
+        text-align: start;
+    }
+    .description{
+        text-align: start;
+        font-size: 1.1rem;
+        display: inline-block;
+        margin: 1rem 0;
+    }
+}
+@media(max-width:480px){
+    .containerIcons{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .skillTitle{
+        font-size: 1.5rem;
+    }
+}

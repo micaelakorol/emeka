@@ -13,7 +13,7 @@ const Services = () => {
       </h4>
       <section className={style.services}>
         {services.map((item) => (
-          <ul className={style.cardService}>
+          <ul key={item.id} className={style.cardService}>
           <Image src={item.image} alt={item.title} width={22} height={22} />
           <li>
             <h5 className={style.titleCard}>{item.title}</h5>

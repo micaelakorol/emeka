@@ -11,19 +11,17 @@ const page = () => {
       <section className={style.containerAboutMe}>
         <Image src={imageMe} alt="me" width={150} height={150} />
         <p className={style.aboutMe}>
-          {" "}
           ¿Quién soy? <br />
           Mi nombre es Micaela Korol y soy estudiante de Analista Programador en
           la Universidad Nacional de La Plata. Además, me desempeño como
           Desarrolladora Web. Mi trayectoria en el mundo de la programación
-          comenzó como un simple "hobbie", pero rápidamente se convirtió en algo
-          más significativo. <br />
-          Mi objetivo principal es{" "}
+          comenzó como un simple &quot;hobbie&quot;, pero rápidamente se
+          convirtió en algo más significativo. <br />
+          Mi objetivo principal es
           <b>
-            {" "}
             ayudar a emprendedores y a personas que ofrecen servicios a través
             del desarrollo web.
-          </b>{" "}
+          </b>
           Creo firmemente en el poder de la tecnología para transformar y
           potenciar negocios, por lo que me dedico a brindar soluciones
           innovadoras y eficientes para quienes buscan destacarse en el mundo

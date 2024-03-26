@@ -1,4 +1,4 @@
-import BtnLink from '@/app/utils/reusable/BtnLink'
+import BtnLink from '../../../utils/reusable/BtnLink'
 import React from 'react'
 import style from "../../../../../public/styles/footer.module.css";
 import Image from "next/image";

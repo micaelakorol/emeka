@@ -1,7 +1,7 @@
-import BtnLink from '@/app/utils/reusable/BtnLink'
 import React from 'react'
 import style from "../../../../../public/styles/footer.module.css";
 import { form } from '../../../../../public/assets/images';
+import BtnLink from '@/src/app/utils/reusable/BtnLink';
 
 const Items = () => {
   return (

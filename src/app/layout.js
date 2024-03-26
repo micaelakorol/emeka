@@ -7,8 +7,8 @@ const inter = Quicksand({
 });
 
 export const metadata = {
-  title: "Micaela Korol",
-  description: "Portfolio Micaela Korol",
+  title: "Emeka digital",
+  description: "Portfolio, Micaela Korol, Emeka digital",
 };
 
 export default function RootLayout({ children }) {

@@ -22,3 +22,9 @@
 .subCard{
     margin:.6rem;
 }
+
+@media(max-width:768px){
+    .containerBlog{
+        grid-template-columns: 65%;
+    }
+}

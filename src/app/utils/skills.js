@@ -1,4 +1,4 @@
-import { css, firebase, git, html, js, next, react, styled } from "../../../public/assets/images";
+import { cloudinary, css, firebase, html, js, next, react, styled } from "../../../public/assets/images";
 
 
 export const skills = [
@@ -24,6 +24,6 @@ export const skills = [
         id:"6", src:styled, name:"Styled-components"
     },
     {
-        id:"7", src:git, name:"Git"
+        id:"7", src:cloudinary, name:"Cloudinary"
     },
 ]

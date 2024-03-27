@@ -5,7 +5,7 @@ import SocialMedia from "./element/SocialMedia";
 const Footer = () => {
   return (
     <footer className={style.containerFooter}>
-      <section className={style.items}>
+      <section>
         <p>Teléfono: (+54 1124000822)</p>
         <p>Buenos Aires, Argentina</p>
       </section>

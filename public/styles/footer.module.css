@@ -1,6 +1,7 @@
 .containerFooter{
-    display: flex;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    place-items: center;
     padding: 1.2rem;
     margin-top:5%;
     border-top: 1px solid var(--color-lightViolet2);
@@ -17,6 +18,8 @@
 color: var(--color-violet);
 }
 
+/*Frecuent questions and presupuest*/
+
 .items{
   display: flex;
   flex-direction: column;
@@ -24,9 +27,15 @@ color: var(--color-violet);
 
 .social_media{
   display: flex;
+  align-items: center;
   flex-direction: row;
 }
 
-.social_media p{
-  margin: 0 .5rem;
+@media(max-width:768px){
+  .containerFooter{
+    grid-template-columns: 1fr;
+  }
+  .items{
+    margin: .5rem;
+  }
 }

@@ -4,13 +4,17 @@ import ButtonBack from "../utils/reusable/ButtonBack";
 import BtnLink from "../utils/reusable/BtnLink";
 import Image from "next/image";
 import style from "./styles/projects.module.css";
-import styleButton from '../../../public/styles/presentation.module.css'
+import styleButton from "../../../public/styles/presentation.module.css";
+import title from "../../../public/styles/services.module.css";
 
 const page = () => {
   const data = dataProject.items;
   return (
     <section className={style.containerProjects}>
       <ButtonBack />
+      <h2 className={title.titleService}>
+        Aquí te presento algunos de los proyectos que he desarrollado.
+      </h2>
       <ul className={style.containerCard}>
         {data.map((item) => (
           <React.Fragment key={item.id}>

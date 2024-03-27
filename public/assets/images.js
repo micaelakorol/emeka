@@ -29,7 +29,7 @@ const arrow =
 const back =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711468595/emeka.site/back-svgrepo-com_byf3av.svg";
 const imageMe =
-  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711392685/mi-portfolio-trabajo/foto_ghtykd.jpg";
+  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711574071/emeka.site/foto_jdinpq.jpg";
 const whatsapp =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711549568/wsp_ld3kcf.svg";
 const cloudinary =

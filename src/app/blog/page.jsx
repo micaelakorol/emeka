@@ -13,14 +13,14 @@ const page = () => {
       <h2 className={serviceStyle.titleService}>¿Qué tipo de sitio web me conviene?</h2>
       <article className={style.containerBlog}>
         {data.map((item) => (
-          <ul key={item.id} className={style.cardBlog}>
+          <div key={item.id} className={style.cardBlog}>
             <Image src={item.image} alt={item.title} width={65} height={65} />
-            <li>
+            <div>
               <h4 className={serviceStyle.titleCard}>{item.title}</h4>
               <h5 className={style.subCard}>¿Qué es?</h5>
               <p className={serviceStyle.descriptionService}>{item.description}</p>
-            </li>
-          </ul>
+            </div>
+          </div>
         ))}
       </article>
     </section>

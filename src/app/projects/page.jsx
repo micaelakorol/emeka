@@ -10,15 +10,15 @@ import title from "../../../public/styles/services.module.css";
 const page = () => {
   const data = dataProject.items;
   return (
-    <section className={style.containerProjects}>
+    <div className={style.containerProjects}>
       <ButtonBack />
       <h2 className={title.titleService}>
         Aquí te presento algunos de los proyectos que he desarrollado.
       </h2>
-      <ul className={style.containerCard}>
+      <div className={style.containerCard}>
         {data.map((item) => (
           <React.Fragment key={item.id}>
-            <li className={style.itemCard}>
+            <section className={style.itemCard}>
               <Image
                 src={item.image}
                 width={450}
@@ -27,16 +27,14 @@ const page = () => {
                 className={style.imageCard}
               />
               <h3 className={style.titleCard}>{item.infoProject}</h3>
-              <div className={style.containerBtn}>
                 <BtnLink href={item.visit} className={styleButton.btnTalk}>
                   Visitar
                 </BtnLink>
-              </div>
-            </li>
+            </section>
           </React.Fragment>
         ))}
-      </ul>
-    </section>
+      </div>
+    </div>
   );
 };
 

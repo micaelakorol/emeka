@@ -7,11 +7,11 @@ import { email, instagram } from '../../../../../public/assets/images';
 const SocialMedia = () => {
   return (
     <section className={style.social_media}>
-        <BtnLink href="/" target="_blank">
+        <BtnLink href="https://www.instagram.com/emekadigital" target="_blank">
           {" "}
           <Image src={instagram} alt="instagram" width={23} height={21} />{" "}
         </BtnLink>
-        <a href="mailto:micaelakorol@gmail.com">
+        <a href="mailto:emekadigital.contacto@gmail.com">
           <Image src={email} alt="email" width={27} height={25} />{" "}
         </a>
       </section>

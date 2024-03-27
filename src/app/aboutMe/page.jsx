@@ -19,8 +19,8 @@ const page = () => {
           convirtió en algo más significativo. <br />
           Mi objetivo principal es
           <b>
-            ayudar a emprendedores y a personas que ofrecen servicios a  través
-            del desarrollo web.
+            ayudar a emprendedores y a personas que ofrecen servicios a
+            insertarse en el mundo digital.
           </b>
           Creo firmemente en el poder de la tecnología para transformar y
           potenciar negocios, por lo que me dedico a brindar soluciones

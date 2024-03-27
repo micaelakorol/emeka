@@ -6,8 +6,8 @@ const Footer = () => {
   return (
     <footer className={style.containerFooter}>
       <section className={style.items}>
-        <p>Teléfono: (+54 2215522293)</p>
-        <p>La Plata, Buenos Aires</p>
+        <p>Teléfono: (+54 1124000822)</p>
+        <p>Buenos Aires, Argentina</p>
       </section>
       <Items />
       <SocialMedia />

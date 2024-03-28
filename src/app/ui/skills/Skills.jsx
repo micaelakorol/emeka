@@ -8,7 +8,7 @@ const Skills = () => {
     <div className={styles.containerSkill}>
       <article>
         <h3 className={styles.skillTitle}>
-          Explora algunas de las tecnologías con las que trabajo
+          Descubre las tecnologías que utilizo..
         </h3>
         <p className={styles.description}>
           Junto con React y Next.js creamos un sitio web rápido y bien posicionado

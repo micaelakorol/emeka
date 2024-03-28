@@ -3,7 +3,7 @@
     grid-template-columns: repeat(2,1fr);
     place-items: center;
     margin-top: 12%;
-    background-color: var(--bg-containerSkill);
+    background-color: var(--color-lightGray);
     padding: 1rem;
 }
 

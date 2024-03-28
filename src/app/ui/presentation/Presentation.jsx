@@ -1,21 +1,21 @@
 import React from "react";
 import style from "../../../../public/styles/presentation.module.css";
-import HandImage from "./elements/HandImage";
 import Buttons from "./elements/Buttons";
-
+import Rocket from "./elements/Rocket";
 const Presentation = () => {
   return (
     <main className={style.containerPresentation}>
-      <HandImage />
       <section>
-        <h2 className={style.titleFrontend}> Soy Desarrolladora Web</h2>
+        <h1 className={style.title}>
+        Construyo tu presencia digital desde cero con soluciones digitales personalizadas.
+        </h1>
         <p className={style.description}>
           {" "}
-          Y mi objetivo es convertir tus ideas en un sitio web atractivo y funcional.  <br />
-          ¿List@ para llevar tu negocio al mundo digital? 
+          ¡Es momento de despegar hacia tu futuro digital!
         </p>
         <Buttons />
       </section>
+      <Rocket />
     </main>
   );
 };

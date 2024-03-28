@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from "next/image";
-import despega from "../../../../../public/assets/despega.svg";
+import {rocketMain} from '../../../../../public/assets/images'
 
 const Rocket = () => {
   return (
     <section>
-      <Image src={despega} width={320} height={270} />
+      <Image src={rocketMain} width={320} height={270} alt='rocket-main' />
     </section>
   )
 }

@@ -3,7 +3,7 @@ import styleNav from "../../../../public/styles/navBar.module.css";
 import BtnLink from "../../utils/reusable/BtnLink";
 import { links } from "../../utils/links";
 import Image from "next/image";
-import logo from '../../../../public/assets/logo.svg'
+import { logo } from "../../../../public/assets/images";
 
 const NavBar = () => {
   return (

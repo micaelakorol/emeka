@@ -7,7 +7,8 @@ const Presentation = () => {
     <main className={style.containerPresentation}>
       <section>
         <h1 className={style.title}>
-        Construyo tu presencia digital desde cero con soluciones digitales personalizadas.
+          Desarrollo tu presencia en línea desde cero, con soluciones
+          personalizadas y adaptadas a tus requerimientos.
         </h1>
         <p className={style.description}>
           {" "}

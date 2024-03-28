@@ -13,6 +13,7 @@
 }
 .containerWeb h3{
 margin-bottom: 1.1rem;
+color: var(--title-main);
 }
 
 @media(max-width:768px){

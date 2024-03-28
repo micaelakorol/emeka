@@ -22,6 +22,7 @@
 .titleService {
   margin: 3rem;
   font-size: 1.5rem;
+  color: var(--title-main);
 }
 
 .titleCard {

@@ -22,8 +22,6 @@ const web =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711465036/emeka.site/web_wey2bg.svg";
 const html =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711464857/emeka.site/html_qiuftb.svg";
-const hand =
-  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711464857/emeka.site/hand_cblveu.svg";
 const arrow =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711464853/emeka.site/arrow_l6ybzi.svg";
 const back =
@@ -32,13 +30,15 @@ const imageMe =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711574071/emeka.site/foto_jdinpq.jpg";
 const whatsapp =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711549568/wsp_ld3kcf.svg";
+  const logo = "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711635279/emeka.site/logo_f3ulm3.svg"
+  const rocketMain = "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711635276/emeka.site/despega_tlmcdy.svg"
 const cloudinary =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711550092/emeka.site/cloudinary_rxr9xz.svg";
 export {
   instagram,
   whatsapp,
   rocket,
-  back,
+  back,logo, rocketMain,
   cloudinary,
   email,
   arrow,
@@ -46,7 +46,6 @@ export {
   form,
   web,
   html,
-  hand,
   styled,
   next,
   js,

@@ -13,7 +13,7 @@ const page = () => {
     <div className={style.containerProjects}>
       <ButtonBack />
       <h2 className={title.titleService}>
-        Aquí te presento algunos de los proyectos que he desarrollado.
+        Proyectos que desarrollé.
       </h2>
       <div className={style.containerCard}>
         {data.map((item) => (
@@ -27,7 +27,7 @@ const page = () => {
                 className={style.imageCard}
               />
               <h3 className={style.titleCard}>{item.infoProject}</h3>
-                <BtnLink href={item.visit} className={styleButton.btnTalk}>
+                <BtnLink href={item.visit} className={styleButton.btnTalk} target="_blank">
                   Visitar
                 </BtnLink>
             </section>

@@ -15,7 +15,7 @@ const dataProject = {
         "Exhibe los servicios que ofrece, su ubicación, redes sociales y un pequeño portafolio con sus trabajos.",
       image:
         "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1708346281/landing_page_herreria/herreria_b8tsco.png",
-      visit: "https://herreriajavier.netlify.app/",
+      visit: "https://herreriajavier.website/",
     },
 
     {
@@ -25,12 +25,6 @@ const dataProject = {
       image:
         "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711480017/emeka.site/ciclo_e4hxrx.png",
       visit: "https://htmlfundamental-byciclo.netlify.app/",
-    },
-    {
-      id: 3,
-      infoProject: "Proyecto de Maquetación",
-      image: "https://i.ibb.co/fdQksVR/saludable.png",
-      visit: "https://tienda-saludable.netlify.app/",
     },
   ],
 };

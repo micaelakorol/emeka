@@ -1,6 +1,0 @@
-Cloudinary: beneficios de guardar las imagenes de tu sitio web en cloudinary.
-
-Nextjs : Por qué lo usamos
-
-
-Que es hosting, dominio, ssl

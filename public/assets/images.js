@@ -26,8 +26,6 @@ const arrow =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711464853/emeka.site/arrow_l6ybzi.svg";
 const back =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711468595/emeka.site/back-svgrepo-com_byf3av.svg";
-const imageMe =
-  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711574071/emeka.site/foto_jdinpq.jpg";
 const whatsapp =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711549568/wsp_ld3kcf.svg";
   const logo = "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711635279/emeka.site/logo_f3ulm3.svg"

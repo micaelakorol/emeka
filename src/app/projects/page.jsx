@@ -13,7 +13,7 @@ const page = () => {
     <div className={style.containerProjects}>
       <ButtonBack />
       <h2 className={title.titleService}>
-        Proyectos que desarrollé.
+        Proyectos destacados
       </h2>
       <div className={style.containerCard}>
         {data.map((item) => (

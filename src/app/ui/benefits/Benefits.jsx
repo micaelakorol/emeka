@@ -5,10 +5,10 @@ import BtnLink from "../../utils/reusable/BtnLink";
 import { form } from "../../../../public/assets/images";
 import { items } from "./items";
 
-const BenefitWeb = () => {
+const Benefits = () => {
   return (
     <section className={style.containerWeb}>
-      <h3>¿Conoces los beneficios de tener un sitio web?</h3>
+      <h3>¿Por qué tener tu sitio web?</h3>
       <ul>
         {items.map((item) => (
           <li key={item.id}>{item.text}</li>
@@ -22,4 +22,4 @@ const BenefitWeb = () => {
   );
 };
 
-export default BenefitWeb;
+export default Benefits;

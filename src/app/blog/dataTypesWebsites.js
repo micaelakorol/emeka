@@ -23,10 +23,10 @@ export const dataTypesWeb = {
       },
       {
         id: 3,
-        title: "Ecommerce",
+        title: "Template",
         image: "https://i.ibb.co/VQ5DqX8/ecommerce.png",
         description:
-          "Es un sitio de comercio digital donde podrás ofrecer tus productos/servicios. Estarán disponibles para comprar 24/7, los 365 días del año. ",
+          "..",
       },
     ],
   };

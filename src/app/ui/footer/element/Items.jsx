@@ -12,7 +12,7 @@ const Items = () => {
       {" "}
       Quiero un presupuesto
     </BtnLink>
-    <BtnLink href="/frecuentQuestions">
+    <BtnLink href="/FAQ">
       {" "}
       Preguntas frecuentes{" "}
     </BtnLink>

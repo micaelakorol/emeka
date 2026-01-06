@@ -1,5 +1,5 @@
 import React from "react";
-import { dataTypesWeb } from "../utils/dataTypesWebsites";
+import { dataTypesWeb } from "./dataTypesWebsites";
 import Image from "next/image";
 import serviceStyle from '../../../public/styles/services.module.css'
 import style from './styles/blog.module.css'

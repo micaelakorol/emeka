@@ -5,6 +5,10 @@
   padding: 1rem;
 }
 
+.links{
+  padding: .44rem;
+}
+
 .logo img {
   max-width: 200px;
   position: absolute;
@@ -14,13 +18,14 @@
 
 .btnNav {
   display: inline-block;
-  padding: 0.4rem 0.8rem;
-  border: none;
+  transition-timing-function: ease-out;
+  transition-duration: 0.25s;
+  padding: 0.55rem 0.77rem;
+  border: 1.3px solid var(--color-violet);
   background-color: var(--color-white);
   margin: 0 0.6rem;
   font-size: 0.88rem;
   color: var(--color-violet);
-  border: 1.4px solid var(--color-violet);
   border-radius: 0.3rem;
   font-family: inherit;
   text-decoration: none;
@@ -28,15 +33,16 @@
   font-weight: 600;
 }
 
-.btnNav:nth-child(2) {
-  background-color: var(--color-violet);
+.btnNav:nth-child(3) {
   color: var(--color-white);
+  background-image: linear-gradient(to bottom right, #9374FE, #C467C3);
 }
 
 .btnNav:hover {
-  border: 1.4px solid transparent;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    box-shadow: .20rem .20rem .20rem var(--color-violet);
+    transform: translate(-.25rem, -.25rem);
 }
+
 
 @media (max-width: 480px) {
   .containerNav {

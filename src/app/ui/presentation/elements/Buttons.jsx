@@ -7,13 +7,13 @@ const Buttons = () => {
   return (
    <>
     <BtnLink
-          href={form}
-          className={style.btnTalk} target="_blank"
+          href="templates"
+          className={style.btnTalk} 
         >
-          Habla conmigo
+          Ver Templates
         </BtnLink>
-        <BtnLink href="projects" className={style.btnSeeProject}>
-          Conocé mi trabajo
+        <BtnLink href="" className={style.btnDeveloper}>
+          Desarrollo personalizado
         </BtnLink>
    </>
   )

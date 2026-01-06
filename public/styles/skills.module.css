@@ -1,57 +1,50 @@
-.containerSkill{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    place-items: center;
-    margin-top: 6%;
-    background-color: var(--color-lightGray);
-    padding: 1rem;
+/* Contenedor de la sección */
+.containerSkill {
+  max-width: 1000px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+  text-align: center;
 }
 
-.containerIcons{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+/* Artículo interno */
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6% 0;
 }
 
-.skillIcon{
-    margin: .7rem 1.5rem;
-    cursor: pointer;
-    border-top: .5px solid var(--border-skill);
-    border-right: .5px solid var(--border-skill);
-    padding: .7rem;
+/* Título */
+.skillTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--title-main);
+  margin-bottom: 1rem;
 }
 
-.skillTitle{
-    font-size: 2rem;
-    font-weight: 400;
-    text-align: end;
+/* Descripción */
+.description {
+  font-size: 1rem;
+  color: var(--color-gray);
+  line-height: 1.6;
+  max-width: 700px;
 }
 
-.description{
-    color: var(--color-description);
-    margin-top: .7rem;
-    font-size: .98rem;
-    text-align: end;
+/* Responsive */
+@media (max-width: 768px) {
+  .skillTitle {
+    font-size: 1.7rem;
+  }
+  .description {
+    font-size: 0.95rem;
+  }
 }
 
-@media(max-width:768px){
-    .containerSkill{
-        grid-template-columns: 1fr;
-    }
-    .skillTitle{
-        text-align: start;
-    }
-    .description{
-        text-align: start;
-        font-size: 1.1rem;
-        display: inline-block;
-        margin: 1rem 0;
-    }
-}
-@media(max-width:480px){
-    .containerIcons{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .skillTitle{
-        font-size: 1.5rem;
-    }
+@media (max-width: 480px) {
+  .skillTitle {
+    font-size: 1.5rem;
+  }
+  .description {
+    font-size: 0.9rem;
+  }
 }

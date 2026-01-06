@@ -1,5 +1,5 @@
 import React from "react";
-import dataProject from "../utils/dataProject";
+import dataProject from "./dataProject";
 import ButtonBack from "../utils/reusable/ButtonBack";
 import BtnLink from "../utils/reusable/BtnLink";
 import Image from "next/image";

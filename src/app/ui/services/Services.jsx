@@ -1,14 +1,14 @@
 import Image from "next/image";
 import React from "react";
 import style from "../../../../public/styles/services.module.css";
-import { services } from "../../utils/dataServices";
+import { services } from "./dataServices";
 import { arrow } from "../../../../public/assets/images";
 const Services = () => {
   return (
     <>
       {" "}
       <h4 className={style.titleService}>
-        Qué hago por ti <Image src={arrow} width={15} height={15} alt="arrow" />{" "}
+        Qué hacemos por ti <Image src={arrow} width={15} height={15} alt="arrow" />{" "}
       </h4>
       <section className={style.services}>
         {services.map((item) => (

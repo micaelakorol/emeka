@@ -1,7 +1,7 @@
 import React from "react";
 import styleNav from "../../../../public/styles/navBar.module.css";
 import BtnLink from "../../utils/reusable/BtnLink";
-import { links } from "../../utils/links";
+import { links } from "./links";
 import Image from "next/image";
 import { logo } from "../../../../public/assets/images";
 

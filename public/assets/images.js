@@ -5,8 +5,6 @@ const email =
 
 const form =
   "https://docs.google.com/forms/d/1r9efbF9XZfEEK7p60ZfmDQZK_NBc7AOXRzn6e6KSI_Q/";
-const rocket =
-  "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711465033/emeka.site/rocket_zfnd7s.svg";
 const web =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711465036/emeka.site/web_wey2bg.svg";
 const arrow =
@@ -16,7 +14,6 @@ const back =
 const whatsapp =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711549568/wsp_ld3kcf.svg";
   const logo = "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711635279/emeka.site/logo_f3ulm3.svg"
-  const rocketMain = "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711635276/emeka.site/despega_tlmcdy.svg"
 const cloudinary =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711550092/emeka.site/cloudinary_rxr9xz.svg";
 export {

@@ -24,17 +24,18 @@
   border: 1.3px solid var(--color-violet);
   background-color: var(--color-white);
   margin: 0 0.6rem;
-  font-size: 0.88rem;
+  font-size: 0.8rem;
   color: var(--color-violet);
   border-radius: 0.3rem;
   font-family: inherit;
   text-decoration: none;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .btnNav:nth-child(2) {
   color: var(--color-white);
-  background-image: linear-gradient(to bottom right, #9374FE, #C467C3);
+  background-color: var(--color-violet);
 }
 
 .btnNav:hover {

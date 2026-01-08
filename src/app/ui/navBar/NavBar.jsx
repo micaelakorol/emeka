@@ -1,15 +1,15 @@
-import React from "react";
-import styleNav from "../../../../public/styles/navBar.module.css";
-import BtnLink from "../../utils/reusable/BtnLink";
-import { links } from "./links";
-import Image from "next/image";
-import { logo } from "../../../../public/assets/images";
+import React from 'react';
+import styleNav from '../../../../public/styles/navBar.module.css';
+import BtnLink from '../../reusable/BtnLink';
+import { links } from './data/links';
+import Image from 'next/image';
+import { logo } from '../../../../public/assets/images';
 
 const NavBar = () => {
   return (
     <header className={styleNav.containerNav}>
       <section className={styleNav.logo}>
-      <Image src={logo} width={300} height={200} alt='logo' />
+        <Image src={logo} width={300} height={200} alt="logo" />
       </section>
       <nav className={styleNav.links}>
         {links.map((item) => (

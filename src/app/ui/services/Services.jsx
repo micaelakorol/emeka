@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import style from "../../../../public/styles/services.module.css";
-import { services } from "./dataServices";
+import { services } from "./data/dataServices";
 import { arrow } from "../../../../public/assets/images";
 const Services = () => {
   return (

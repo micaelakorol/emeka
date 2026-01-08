@@ -1,4 +1,4 @@
-import { rocket, web } from "../../../../public/assets/images";
+import { rocket, web } from "../../../../../public/assets/images";
 
 export const services = [
   {

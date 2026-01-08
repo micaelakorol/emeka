@@ -1,9 +1,9 @@
-import React from "react";
-import style from "../../../../public/styles/benefitWeb.module.css";
-import styles from "../../../../public/styles/presentation.module.css";
-import BtnLink from "../../utils/reusable/BtnLink";
-import { form } from "../../../../public/assets/images";
-import { items } from "./items";
+import React from 'react';
+import style from '../../../../public/styles/benefitWeb.module.css';
+import styles from '../../../../public/styles/presentation.module.css';
+import BtnLink from '../../reusable/BtnLink';
+import { form } from '../../../../public/assets/images';
+import { items } from './data/items';
 
 const Benefits = () => {
   return (

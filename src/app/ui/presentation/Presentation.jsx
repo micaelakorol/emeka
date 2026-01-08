@@ -1,7 +1,7 @@
 import React from "react";
 import style from "../../../../public/styles/presentation.module.css";
 import Buttons from "./elements/Buttons";
-import Rocket from "./elements/Rocket";
+
 const Presentation = () => {
   return (
     <main className={style.containerPresentation}>
@@ -15,7 +15,6 @@ const Presentation = () => {
         </p>
         <Buttons />
       </section>
-      <Rocket />
     </main>
   );
 };

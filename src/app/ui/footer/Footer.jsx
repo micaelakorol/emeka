@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className={style.containerFooter}>
       <section>
-        <p>Teléfono: (+54 xxxxxx)</p>
+        <p>WhatsApp: (+54 2215522293)</p>
         <p>Buenos Aires, Argentina</p>
       </section>
       <Items />

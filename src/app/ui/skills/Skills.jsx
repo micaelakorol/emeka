@@ -9,7 +9,7 @@ const Skills = () => {
     </h3>
     <p className={styles.description}>
       Elige entre <strong>templates listos</strong> o <strong>desarrollos personalizados</strong>.  
-      Todos creados con tecnologías modernas como <strong>React, Next.js, HTML, CSS y Firebase</strong> para velocidad, diseño limpio y funcionalidades avanzadas.
+      Todos creados con tecnologías modernas como <strong>React, Next.js, HTML, CSS </strong> para velocidad, diseño limpio y funcionalidades avanzadas.
     </p>
   </article>
 </div>

@@ -2,7 +2,7 @@ const instagram =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711465411/emeka.site/instagram_fn5bua.svg";
 const email =
   "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711465137/emeka.site/email_q6ruyj.svg";
-
+const rocket = "https://res.cloudinary.com/dgqyqd2pa/image/upload/v1711465033/emeka.site/rocket_zfnd7s.svg"
 const form =
   "https://docs.google.com/forms/d/1r9efbF9XZfEEK7p60ZfmDQZK_NBc7AOXRzn6e6KSI_Q/";
 const web =
@@ -19,19 +19,10 @@ const cloudinary =
 export {
   instagram,
   whatsapp,
-  rocket,
-  back,logo, rocketMain,
-  cloudinary,
+  back,logo, 
+  cloudinary,rocket,
   email,
   arrow,
-  imageMe,
   form,
-  web,
-  html,
-  styled,
-  next,
-  js,
-  react,
-  firebase,
-  css,
+  web
 };
